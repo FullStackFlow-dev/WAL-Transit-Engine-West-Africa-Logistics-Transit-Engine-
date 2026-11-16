@@ -1,0 +1,38 @@
+# Environnement Python
+.mirah-bi/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets
+.env
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Données générées
+data/bronze/*
+data/silver/*
+data/gold/*
+
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store

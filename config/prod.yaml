@@ -1,0 +1,17 @@
+environment: prod
+
+project:
+  name: mirah-bi-west-africa-logistics-analytics
+
+snowflake:
+  database: LOGISTICS_PROD
+  bronze_schema: BRONZE
+  silver_schema: SILVER
+  gold_schema: GOLD
+  warehouse: WH_LOGISTICS_PROD_ETL
+
+processing:
+  chunk_size: 100000
+
+logging:
+  level: WARNING

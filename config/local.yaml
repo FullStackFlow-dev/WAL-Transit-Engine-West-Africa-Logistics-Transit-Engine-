@@ -1,0 +1,16 @@
+environment: local
+
+project:
+  name: mirah-bi-west-africa-logistics-analytics
+
+paths:
+  bronze: data/bronze
+  silver: data/silver
+  gold: data/gold
+  logs: logs
+
+processing:
+  chunk_size: 100000
+
+logging:
+  level: INFO

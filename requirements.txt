@@ -1,0 +1,17 @@
+# Data generation
+Faker
+
+# Data processing
+pandas==2.2.3
+numpy==1.24.3
+
+# Snowflake
+snowflake-connector-python
+
+# Configuration
+python-dotenv
+PyYAML
+
+# Testing
+pytest
+pytest-cov
